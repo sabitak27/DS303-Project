@@ -42,7 +42,8 @@ K Sabita  210110068
 M Bhavana 210020078    
 Harsh Bhardwaj 210020053
 
-
+**Contributions**     
+All team members contributed fairly to the project by suggesting research papers to work on and collaboratively determining the best one based on our collective abilities. We worked together to comprehend complex algorithms, coding and debugging the project as a team. Harsh took the lead in developing the kNN Model, Sabita implemented the kNN algorithm, and Bhavna coded the C5.0 algorithm. The presentation was prepared by Sabita and carefully reviewed by Bhavna and Harsh, who provided valuable feedback and suggestions to enhance its effectiveness.  Each member played an important role in our group's success, contributing their unique skills and expertise towards a common goal.
 
 
 
