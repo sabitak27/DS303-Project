@@ -6,7 +6,7 @@ https://www.researchgate.net/publication/2948052_KNN_Model-Based_Approach_in_Cla
 KNN Model-Based Approach in Classification:  
 The k-Nearest-Neighbours (kNN) method for classification is effective but slow and relies on selecting the right value for k. The paper proposes a new method that replaces the data with a kNN model, which automatically determines the value of k for each data point, making classification faster and more accurate.     
 
-**Model Construction Algorithm:**
+## Model Construction Algorithm:
 
 1. Select a similarity measure and create a similarity matrix from the given training dataset:
 This step involves choosing a similarity measure such as Euclidean distance, cosine similarity, etc., to calculate the similarity between each pair of data tuples in the training dataset. The result is a similarity matrix that contains similarity scores between all pairs of data tuples.
@@ -26,7 +26,7 @@ This step repeats steps 3 and 4 until all data tuples in the training dataset ha
 6. Model M consists of all the representatives collected from the above learning process:
 The resulting model M consists of all the created representatives that represent the training dataset.
 
-**Classification Algorithm:**
+## Classification Algorithm:
 
 1. For a new data tuple dt to be classified, calculate its similarity to all representatives in the model M:
 This step involves calculating the similarity score between the given data tuple and all representatives in the model M using the chosen similarity measure.
@@ -37,10 +37,10 @@ If the given data tuple is similar to only one representative, meaning the Eucli
 3. If dt is covered by at least two representatives with different category, classify dt as the category of the representative with largest Num(dj), viz. the neighbourhood covers the largest number of data tuples in the training dataset:
 If the given data tuple is similar to at least two representatives with different class labels, then the algorithm classifies the given data tuple as the category of the representative with the largest number of data tuples in its global
 
-Members :    
+## Members :    
 K Sabita  210110068         
 M Bhavana 210020078    
-Harsh Bharadwaj 210020053
+Harsh Bhardwaj 210020053
 
 
 
